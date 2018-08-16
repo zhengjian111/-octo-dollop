@@ -1,0 +1,545 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.top {
+	width: 100%;
+	height: 80px;
+}
+
+.topauto {
+	width: 1210px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.topleft {
+	width: 192px;
+	height: 80px;
+	float: left;
+	cursor: pointer;
+	padding: 25px 24px 22px 0;
+	box-sizing: border-box;
+	position: relative;
+	background: url(../img/logo_dd5861f.png) no-repeat center center;
+	background-size: 192px 33px;
+}
+.topleft a{
+	display: inline-block;
+	width: 192px;
+	height: 80px;
+}
+
+.topmiddle {
+	width: 42px;
+	height: 26px;
+	float: left;
+	margin-left: 20px;
+	color: #666;
+	font-size: 12px;
+	margin-top: 36px;
+	line-height: 26px;
+}
+
+.topright {
+	width: 392px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+
+.toparr {
+	width: 12px;
+	height: 7px;
+	float: right;
+	margin-top: 10px;
+	background: url(../img/arrow_2defc2a.png) no-repeat 0 0;
+	background-size: 12px auto;
+}
+
+.toparr-down {
+	width: 207px;
+	height: 149px;
+	position: absolute;
+	top: 60px;
+	padding: 15px;
+	background: white;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	display: none;
+}
+
+.toparr-down h2 {
+	color: #73adc9;
+	margin-bottom: 10px;
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+}
+
+.toparr-down ul {
+	width: 196px;
+	height: 78px;
+}
+
+.toparr-down ul li {
+	width: 24px;
+	height: 14px;
+	float: left;
+	margin: 0 25px 10px 0;
+	color: #333;
+}
+
+.toparr-down a {
+	float: right;
+	color: #999;
+	font-size: 12px;
+}
+
+.topmiddle:hover .toparr-down {
+	display: block;
+}
+
+.topright input {
+	width: 350px;
+	height: 38px;
+	border: none;
+	outline: none;
+	float: left;
+	text-indent: 10px;
+}
+
+.search {
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 8px;
+	cursor: pointer;
+	background: url(../img/icon_5857d34.png) no-repeat -1px -24px;
+}
+
+
+/*黑色导航部分*/
+
+.black {
+	width: 100%;
+	height: 65px;
+	background: #3b3a41;
+}
+
+.blackauto {
+	width: 1210px;
+	height: 65px;
+	margin: 0 auto;
+}
+
+.blackleft {
+	width: 400px;
+	height: 65px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+}
+
+.blackright {
+	width: 130px;
+	height: 65px;
+	float: right;
+}
+
+.blackleft li ,
+.blackleft li  a{
+	width: 100px;
+	height: 100%;
+	line-height: 65px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.blackleft li.blackcurrent {
+	background: #1d1d20;
+}
+
+.blackright span {
+	display: inline-block;
+	line-height: 65px;
+	color: #ccc;
+	font-size: 14px;
+	margin-right: 4px;
+}
+
+.blackright span:first-child {
+	background: red;
+	padding: 0 0 0 20px;
+	background: url(../img/phone_ca8f282.png) no-repeat left center;
+}
+
+
+/*主体部分*/
+
+.bodycontent {
+	width: 100%;
+	height: 935px;
+	margin-top: 35px;
+}
+
+.bodycontentauto {
+	width: 1210px;
+	height: 935px;
+	margin: 0 auto;
+}
+
+.bodyleft {
+	width: 960px;
+	height: 935px;
+	float: left;
+	overflow: hidden;
+}
+
+.bodyright {
+	width: 225px;
+	height: 935px;
+	float: right;
+}
+
+.reyin {
+	width: 960px;
+	height: 333px;
+	position: relative;
+}
+
+.reyin h2 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #333;
+}
+
+.reyinpic {
+	/*width: 982px;*/
+	white-space: nowrap;
+	height: 305px;
+	position: relative;
+	border: 4px solid transparent;
+}
+
+.reyin h2 span {
+	float: right;
+	font-size: 14px;
+	color: #666;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.long {
+	width: 960px;
+	height: 305px;
+	position: absolute;
+	top: 26px;
+	opacity: .5;
+	overflow: hidden;
+}
+
+.reyinpic li {
+	width: 158px;
+	height: 297px;
+	padding: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+}
+
+.reyinpic li img {
+	width: 140px;
+	height: 206px;
+}
+
+.reyinpic li p {
+	width: 140px;
+	height: 16px;
+	margin: 13px 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 16px;
+	font-size: 14px;
+}
+
+.reyinpic li a {
+	display: inline-block;
+	width: 68px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #ff318c;
+	color: #ff318c;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.reyinpic li div span {
+	float: right;
+	color: #fd8e51;
+	font-size: 12px;
+	padding-top: 6px;
+}
+
+.circleleft {
+	width: 42px;
+	height: 42px;
+	background: red;
+	position: absolute;
+	left: 0;
+	top: calc(30%);
+	opacity: 0;
+	transition: all 1s;
+	background: url(../img/arrow_ff8c3ca.png) no-repeat;
+}
+
+.circleright {
+	width: 42px;
+	height: 42px;
+	background: red;
+	opacity: 0;
+	position: absolute;
+	right: 0px;
+	transition: all 1s;
+	top: calc(30%);
+	background: url(../img/arrow_ff8c3ca.png) no-repeat -47px 0;
+}
+
+
+/*即将上映部分*/
+
+.shangyin {
+	width: 960px;
+	height: 333px;
+	margin-top: 35px;
+}
+
+.shangyin h2 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #333;
+}
+
+.shangyin h2 span {
+	float: right;
+	font-size: 14px;
+	color: #666;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.shangyin li {
+	width: 158px;
+	height: 297px;
+	padding: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+}
+
+.shangyin li img {
+	width: 140px;
+	height: 206px;
+}
+
+.shangyin li p {
+	width: 140px;
+	height: 16px;
+	margin: 13px 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 16px;
+	font-size: 14px;
+}
+
+.shangyin li a {
+	display: inline-block;
+	width: 68px;
+	height: 25px;
+	line-height: 25px;
+	color: #333;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid #e3e3e3;
+}
+
+.shangyinpic {
+	/*width: 982px;*/
+	white-space: nowrap;
+	height: 305px;
+	position: relative;
+	border: 4px solid transparent;
+}
+
+.circleleft1 {
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	left: 0;
+	top: calc(30%);
+	opacity: 0;
+	transition: all 1s;
+	background: url(../img/arrow_ff8c3ca.png) no-repeat;
+}
+
+.circleright1 {
+	width: 42px;
+	height: 42px;
+	opacity: 0;
+	position: absolute;
+	right: 0px;
+	transition: all 1s;
+	top: calc(30%);
+	background: url(../img/arrow_ff8c3ca.png) no-repeat -47px 0;
+}
+
+.remen {
+	width: 225px;
+	height: 390px;
+}
+
+.remen h2,
+.dang h2 {
+	width: 225px;
+	height: 41px;
+	font-size: 20px;
+	line-height: 41px;
+	color: #333;
+	font-weight: 400;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.remen h2 a,
+.dang h2 a {
+	float: right;
+	font-size: 12px;
+	color: #666;
+}
+
+.remencontent {
+	width: 225px;
+	height: 349px;
+}
+
+.remencontent li {
+	width: 225px;
+	height: 72px;
+	margin-bottom: 15px;
+}
+
+.remencontent li h4 {
+	font-weight: 400;
+	color: #333;
+	font-size: 12px;
+	margin: 15px 0 10px;
+	height: 16px;
+}
+
+.remencontent li h4 .zuo {
+	background-color: #56b2fd;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	margin-left: 10px;
+	color: white;
+	border-radius: 2px;
+}
+
+.remencontent li h4 .vip {
+	width: 30px;
+	height: 16px;
+	display: inline-block;
+	background-color: #ffb94d;
+	text-align: center;
+	line-height: 16px;
+	margin-left: 10px;
+	color: white;
+	border-radius: 2px;
+}
+
+.remencontent p {
+	height: 14px;
+	line-height: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.remencontent p span {
+	font-size: 16px;
+	color: #ff318c;
+	padding-right: 5px;
+}
+
+.dang {
+	width: 225px;
+	height: 508px;
+	margin-top: 30px;
+}
+
+.dangcontent {
+	width: 225px;
+	height: 446px;
+}
+
+.dangcontent li {
+	width: 225px;
+	font-size: 12px;
+	color: #ff318c;
+	margin-bottom: 16px;
+	/*height: 132px;*/
+}
+
+.dangcontent li h3 {
+	height: 16px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	text-overflow: ellipsis;
+	color: #111;
+	cursor: pointer;
+	margin-left: 4px;
+	font-weight: 400
+}
+
+.dangcontent li span {
+	float: left;
+	font-size: 12px;
+	color: #ff318c
+}
+
+.dangcontent li h3 i {
+	padding: 0 11px 0 5px;
+	font-weight: 400;
+	font-style: normal;
+	color: #333;
+	font-size: 12px;
+	float: right;
+}
+.remendown{
+	width: 208px;
+	height: 96px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	display: none;
+	transition: all 1s;
+}
+.remencurrent{
+	display: block;
+}

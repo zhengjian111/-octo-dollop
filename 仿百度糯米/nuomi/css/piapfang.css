@@ -1,0 +1,248 @@
+.zhuti {
+	width: 100%;
+	height: 600px;
+}
+
+.zhutiauto {
+	width: 1210px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.zhuti1 {
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+
+.zhuti1-title {
+	width: 328px;
+	height: 20px;
+	font-size: 16px;
+	color: #333;
+	line-height: 20px;
+}
+
+.zhuti1-title span {
+	display: inline-block;
+	width: 12px;
+	height: 8px;
+	margin-left: 4px;
+}
+
+.zhuti1-title .span {
+	background: url(../img/arrow_a2b635b.png) no-repeat 0 -26px;
+}
+
+.zhuti1-title .span1 {
+	background: url(../img/arrow_a2b635b.png) no-repeat 0 -35px;
+}
+
+.xia {
+	width: 328px;
+	height: 250px;
+	background: white;
+	padding: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	display: none;
+}
+
+.xiatitle {
+	width: 306px;
+	height: 30px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	line-height: 30px;
+}
+
+.xiatitle a {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.xiabody {
+	width: 100%;
+	height: 200px;
+}
+
+.xiabody thead {
+	width: 100%;
+	height: 33px;
+	line-height: 30px;
+	display: inline-block;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+
+.xiabody thead th,
+.xiabody tbody td {
+	width: 42px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+
+.xiabody tbody {
+	display: inline-block;
+}
+
+.xiabody tbody td.tcurrent {
+	font-size: 16px;
+	color: #fc4486;
+	font-weight: bold;
+}
+
+.xiabody tbody td:hover {
+	background: #fc4486;
+}
+
+.zhuti1 h3 {
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #333;
+	font-weight: 400;
+}
+
+.kuang {
+	width: 100%;
+	height: 180px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.kuang-left {
+	width: 510px;
+	height: 100px;
+	margin-top: 40px;
+	float: left;
+}
+
+.kuang-right {
+	width: 694px;
+	height: 100px;
+	margin-top: 40px;
+	float: right;
+}
+
+.kuang-left p {
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.kuang-left p:first-child {
+	text-align: center;
+	color: #ff3caf;
+	font-size: 38px
+}
+
+.kuang-left p:first-child span {
+	font-size: 12px;
+	font-weight: bold;
+}
+.kuang-right li{
+	width: 230px;
+	height: 100%;
+	float: left;
+	border-left: 1px solid #ccc;
+}
+.kuang-right li p{
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.kuang-right li p:first-child{
+	font-size: 30px;
+	color: #333;
+	font-weight: 400;
+}
+.kuang-right li p:first-child span{
+	font-size: 14px;
+}
+.dl{
+	width: 100%;
+}
+.dl dt div,
+.dl dd div{
+	float: left;
+	min-width:74px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	margin: 0 8px;
+}
+.dl dd div{
+	height: 67px;
+	line-height: 50px;
+}
+.dl dd:hover{
+	background: #fff9fa;;
+}
+.dl dt{
+	width: 100%;
+	height: 40px;
+	background: #F6F6F6;
+}
+.dl dd{
+	width: 100%;
+	height: 67px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+}
+.dl dt div.dt1,
+.dl dd div.dd1{
+	width: 280px;
+	height: 40px;
+	text-align: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+}
+.dl dd div.dd1{
+	height: 100%;
+}
+.dd1 h3{
+	font-size: 14px;
+	font-weight: 700;
+	width: 100%;
+	height: 26px;
+	margin-bottom: 10px;
+}
+.dd1 h3:hover{
+	color: #fb72a4;
+}
+.dd1 p{
+	width: 100%;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+}
+.dd1 p span{
+	display: inline-block;
+	margin-left: 40px;
+	color: #fd8e51;;
+}
+.dl dd div.ddcurrent{
+	color: #fc4486;
+}

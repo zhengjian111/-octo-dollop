@@ -1,0 +1,719 @@
+/*下面的具体地址div*/
+
+.detail {
+	width: 100%;
+}
+
+.detailauto {
+	width: 1210px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.detailauto a {
+	color: #666;
+	font-size: 14px;
+	display: inline-block;
+	line-height: 40px;
+	margin-right: 10px;
+}
+
+.detailauto a.detailcurrent {
+	color: #f69;
+}
+
+
+/*米秀ktv*/
+
+.mixiu {
+	width: 100%;
+}
+
+.mixiuauto {
+	width: 1210px;
+	height: 263px;
+	margin: 0 auto;
+	padding: 28px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.mixiuleft {
+	width: 740px;
+	height: 100%;
+	float: left;
+}
+
+.mixiuright {
+	width: 338px;
+	height: 100%;
+	float: right;
+	background: url(../mixiu/8718367adab44aedf601ba77b51c8701a08bfbd2.jpg) no-repeat;
+	background-size: 338px 100%;
+}
+
+.mixiuleft h2 {
+	color: #333;
+	font: 400 26px 'microsoft yahei';
+}
+
+.mixiuleft .xing {
+	width: 100%;
+	height: 20px;
+	margin: 10px 0 20px 0;
+	text-indent: 80px;
+	background: url(../mixiu/star_14_7e02fb1.png) no-repeat;
+}
+
+.xing span:first-child {
+	color: #fcb200;
+	font-size: 16px;
+	line-height: 16px;
+	vertical-align: top;
+}
+
+.mixiuleft p span:nth-child(2),
+.mixiuleft p span:nth-child(3) {
+	display: inline-block;
+	font-size: 12px;
+	text-indent: 4px;
+}
+
+.mixiuleft p span:nth-child(2) {
+	border-right: 1px solid #ccc;
+	padding-right: 20px;
+}
+
+.mixiuleft p {
+	line-height: 30px;
+}
+
+.mixiuleft p:nth-of-type(2) span {
+	color: #629ac2;
+	display: inline-block;
+	padding: 0 10px 0 20px;
+	background: url(../mixiu/ico_panorama_blue_d7e7992.png) no-repeat 0px 6px;
+}
+
+
+/*下面左右主体*/
+
+.content {
+	width: 100%;
+	overflow: hidden;
+}
+
+.contentauto {
+	width: 1210px;
+	margin: 0 auto;
+}
+
+.contentleft {
+	width: 964px;
+	float: left;
+}
+
+.contentright {
+	width: 226px;
+	height: 800px;
+	float: right;
+}
+
+.contentleft h4 {
+	color: #333;
+	font: 400 18px 'microsoft yahei';
+	border-bottom: 1px solid #dfdfdf;
+	padding: 10px 0;
+}
+
+.contentleft-01 {
+	width: 100%;
+	height: 360px;
+}
+
+.contentleft-01 li {
+	width: 100%;
+	height: 120px;
+	padding: 15px 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.contentleft-01-pic {
+	width: 143px;
+	height: 89px;
+	float: left;
+	background: url(../mixiu/8718367adab44aedf601ba77b51c8701a08bfbd2.jpg) no-repeat;
+	background-size: 143px 89px;
+}
+
+.contentleft-01-name {
+	width: 216px;
+	height: 72px;
+	float: left;
+	margin-left: 16px;
+}
+
+.contentleft-01-name h4 {
+	height: 20px;
+	line-height: 20px;
+	color: #333;
+	font-size: 14px;
+	padding: 4px 0;
+	font-weight: 500;
+	border-bottom: none;
+}
+
+.contentleft-01-name p {
+	color: #999;
+	font-size: 12px;
+	height: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.contentleft-01-time {
+	width: 116px;
+	height: 89px;
+	float: left;
+	margin-left: 60px;
+	font-size: 12px;
+	line-height: 89px;
+}
+
+.contentleft-01-price {
+	width: 70px;
+	height: 89px;
+	float: left;
+	margin-left: 100px;
+}
+
+.contentleft-01-price p,
+.contentleft-01-price p del {
+	font-size: 12px;
+	text-decoration: line-through;
+}
+
+.contentleft-01-price h5 {
+	color: #ff4883;
+	margin-bottom: 10px;
+}
+
+.contentleft-01-price h5 span {
+	font-weight: 400;
+	font-size: 24px;
+	color: #ff4883;
+}
+
+.contentleft-01-btn {
+	width: 88px;
+	height: 28px;
+	background: #ff4883;
+	float: right;
+	margin-top: 30px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+}
+
+.contentleft-01-btn:hover {
+	background: #c92258;
+}
+
+.contentleft-02 {
+	width: 100%;
+	height: 126px;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contentleft-02 li {
+	width: 50%;
+	height: 105px;
+	padding: 10px 150px;
+	box-sizing: border-box;
+}
+
+.contentleft-02 li:first-child {
+	border-right: 1px solid #ccc;
+}
+
+.bigxing {
+	width: 100%;
+	height: 70px;
+}
+
+.bigxingleft {
+	width: 66px;
+	height: 66px;
+	float: left;
+	font-size: 48px;
+	line-height: 1.3;
+	color: #ff4883;
+}
+
+.bigxingright {
+	width: 90px;
+	height: 19px;
+	background: deepskyblue;
+	float: right;
+	margin-top: 20px;
+	background: url(../mixiu/common_z_993ec79.png) no-repeat -869px -2433px;
+}
+
+.contentleft-02 p {
+	text-align: center;
+}
+
+.contentleft-02 li:last-child {
+	margin-top: 20px;
+}
+
+.contentleft-02 li:last-child div {
+	width: 337px;
+	height: 18px;
+}
+
+.contentleft-02 li:last-child div span .i {
+	display: inline-block;
+	width: 109px;
+	height: 9px;
+	background: #FFE8F0;
+	margin: 0 10px;
+	position: relative;
+}
+
+.ixia {
+	width: 80%;
+	height: 100%;
+	background: #ff4883;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contentleft-03 {
+	width: 100%;
+	padding: 20px 0;
+	box-sizing: border-box;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+
+.contentleft-03 h5 {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	color: #666;
+}
+
+.contentleft-03 div .f.dis {
+	display: none;
+}
+
+.contentleft-03 div .f {
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #febdce;
+	color: #999;
+	font-size: 12px;
+}
+
+.contentleft-03 div .f:hover {
+	border: 1px solid #ff4883;
+}
+
+.miarr {
+	width: 12px;
+	height: 7px;
+	background: url(../mixiu/open_99441b6.png) no-repeat;
+	position: absolute;
+	right: 10px;
+	top: 60px;
+}
+
+.bei {
+	background: url(../mixiu/close-on_81b9db8.png) no-repeat;
+}
+
+
+/*评价部分*/
+
+.comment {
+	width: 100%;
+}
+
+.title {
+	height: 35px;
+	line-height: 35px;
+	margin-bottom: -5px;
+	padding-right: 10px;
+	border-bottom: 1px solid #f2f5f5;
+	font-size: 14px;
+	background-color: #f9f9f9;
+	position: relative;
+}
+
+.titleleft {
+	width: 388px;
+	height: 100%;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+}
+
+.titleleft li {
+	min-width: 88px;
+	height: 100%;
+	padding-top: 8px;
+	box-sizing: border-box;
+	line-height: 20px;
+	text-align: center;
+}
+
+.titleleft li a {
+	display: inline-block;
+	height: 20px;
+	width: 100%;
+	border-right: 1px solid #ccc;
+}
+
+.titleleft li:last-child a {
+	border-right: none;
+}
+
+.titleleft li:last-child {
+	border-right: none;
+}
+
+.titleright {
+	width: 160px;
+	height: 100%;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+}
+
+.titlecurrent {
+	color: #ff658e;
+	position: relative;
+	border-bottom: 1px solid #ff658e;
+}
+
+.titlearr {
+	width: 0;
+	height: 0;
+	border: 6px solid red;
+	position: absolute;
+	top: 100%;
+	left: 40%;
+	display: block;
+	border-color: #ff658e transparent transparent transparent;
+}
+
+.titlecurrent a {
+	color: #ff658e;
+}
+
+.titleright li {
+	width: 80px;
+	height: 100%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 38px;
+}
+
+.titleright li input {
+	line-height: 30px;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.ziarr {
+	width: 0px;
+	height: 0px;
+	border: 6px solid red;
+	border-color: #333 transparent transparent transparent;
+	float: right;
+	margin-top: 16px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.zixia {
+	width: 67px;
+	height: 70px;
+	background: white;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 8px;
+	left: -40px;
+}
+
+.zixia p {
+	line-height: 34px;
+}
+
+.zixiacurrent {
+	color: #ff4883;
+}
+
+.diszi {
+	display: none;
+}
+
+.comment-content {
+	width: 100%;
+}
+
+.comment-content li {
+	width: 100%;
+	min-height: 130px;
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+
+.titlearr {
+	display: none;
+}
+
+.titlecurrent .titlearr:first-of-type {
+	display: block;
+}
+
+.comment-pic {
+	width: 60px;
+	height: 84px;
+	float: left;
+	font-size: 14px;
+	color: #949494;
+}
+
+.comment-text {
+	width: 873px;
+	height: 84px;
+	float: right;
+}
+
+.comment-text p {
+	line-height: 26px;
+	font-size: 12px;
+}
+
+.comment-text p span {
+	display: inline-block;
+	width: 70px;
+	height: 15px;
+	background: pink;
+	float: right;
+	background: url(../mixiu/common_z_993ec79.png) no-repeat -893px -2394px;
+}
+
+.more {
+	width: 100%;
+	height: 17px;
+	margin: 20px 0;
+	text-align: center;
+	font-size: 14px;
+	color: #73ADC9;
+}
+
+
+/*右边部分*/
+
+.map,
+.map1 {
+	width: 226px;
+	height: 96px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	position: relative;
+	box-sizing: border-box;
+	background: url(../mixiu/1.png) no-repeat center center;
+}
+
+.map1 {
+	background: white;
+	margin: 20px 0;
+}
+
+.map span {
+	display: inline-block;
+	width: 100%;
+	height: 16px;
+	background: rgba(255, 255, 255, 0.701961);
+	padding: 0px 1px;
+	line-height: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: black;
+	font-size: 11px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.map1 span {
+	font-size: 12px;
+}
+
+.map a,
+.map1 a {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	background: #000;
+	padding: 10px 0;
+	opacity: .7;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+	font-size: 12px;
+	color: white;
+	text-indent: 20px;
+}
+
+.map a span {
+	display: inline-block;
+	width: 8px;
+	position: absolute;
+	left: 4px;
+	background: url(../mixiu/zoom_7bfe981.png) no-repeat center center;
+}
+
+.map1 a span {
+	display: inline-block;
+	width: 10px;
+	height: 16px;
+	position: absolute;
+	left: 4px;
+	background: url(../mixiu/ico_panorama_white_23fafaa.png) no-repeat center center;
+}
+
+.contentright-last {
+	width: 228px;
+	height: 493px;
+	border: 1px solid #ccc;
+}
+
+.contentright-last h3 {
+	height: 51px;
+	line-height: 51px;
+	font-size: 20px;
+	padding: 0 15px;
+	color: #444;
+	border-bottom: 1px solid #dfdfdf;
+	font-weight: 500;
+}
+
+.contentright-last h3 span {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	margin-top: 16px;
+	background: url(../mixiu/refresh_d84c7e3.png) no-repeat;
+}
+
+.contentright-last h3 span.redcircle{
+	background: url(../mixiu/refresh_d84c7e3.png) no-repeat 0 -30px;
+	
+}
+
+.contentright-pic {
+	width: 100%;
+	height: 440px;
+}
+
+.contentright-pic li {
+	width: 100%;
+	height: 110px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.contentright-pic li:last-child {
+	border: none;
+}
+
+.contentright-pic-left {
+	width: 97px;
+	height: 100%;
+	background: url(../mixiu/359b033b5bb5c9eaa424ab23dc39b6003bf3b31f.jpg) no-repeat center center;
+	background-size: 97px 79px;
+	float: left;
+}
+
+.contentright-pic-right {
+	width: 94px;
+	height: 100%;
+	float: right;
+}
+
+.contentright-pic-right h4 {
+	font-size: 13px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.contentright-pic-right p,
+.contentright-pic-right p span {
+	color: #878787;
+	font-size: 12px;
+}
+
+.contentright-pic-right p .new {
+	color: #ff4883;
+}
+
+.contentright-pic-right p .old {
+	text-decoration: line-through;
+	margin-left: 20px;
+}
+
+.mengmap {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	position: fixed;
+	top: 0;
+	display: none;
+}
+
+.mengmap-auto {
+	width: 995px;
+	height: 100%;
+	background: white;
+	margin: 0 auto;
+	border: 1px solid #ff4883;
+}
+
+.mengmap-auto h1 {
+	width: 995px;
+	height: 45px;
+	font-size: 16px;
+	padding: 0 20px;
+	color: #fff;
+	box-sizing: border-box;
+	background-color: #ff4883;
+	line-height: 45px;
+}
+.mengmap-auto h1 span{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	color: white;
+}

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="24f321a2-1191-4326-b8a4-72f1b61fa9aa" name="默认" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dianying.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuomi/data/dianying.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1033">
+              <caret line="185" column="20" lean-forward="true" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
+              <folding>
+                <element signature="e#1094#1628#0" />
+                <element signature="e#1652#2211#0" />
+                <element signature="e#2234#2514#0" />
+                <element signature="e#2536#2810#0" />
+                <element signature="e#2833#3336#0" />
+                <element signature="e#3360#3876#0" />
+                <element signature="e#3901#4558#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nuomi/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="561" column="8" lean-forward="true" selection-start-line="561" selection-start-column="8" selection-end-line="561" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#a#0;n#li#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixiu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuomi/mixiu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3687">
+              <caret line="461" column="18" lean-forward="true" selection-start-line="461" selection-start-column="18" selection-end-line="461" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/nuomi/movie.html" />
+        <option value="$PROJECT_DIR$/nuomi/css/movie.css" />
+        <option value="$PROJECT_DIR$/nuomi/mixiu.html" />
+        <option value="$PROJECT_DIR$/nuomi/data/dianying.js" />
+        <option value="$PROJECT_DIR$/nuomi/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="35" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nuomi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuomi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuomi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuomi" type="462c0819:PsiDirectoryNode" />
+              <item name="nuomi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuomi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuomi" type="462c0819:PsiDirectoryNode" />
+              <item name="nuomi" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/nuomi/nuomi/index.html" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\建\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24f321a2-1191-4326-b8a4-72f1b61fa9aa" name="默认" comment="" />
+      <created>1534257451034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534257451034</updated>
+      <workItem from="1534257452526" duration="2252000" />
+      <workItem from="1534260822598" duration="639000" />
+      <workItem from="1534297386958" duration="28000" />
+      <workItem from="1534300804038" duration="60000" />
+      <workItem from="1534300898505" duration="18000" />
+      <workItem from="1534301138829" duration="35000" />
+      <workItem from="1534301228191" duration="22000" />
+      <workItem from="1534301287334" duration="25000" />
+      <workItem from="1534405321111" duration="754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3833000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="调试" order="7" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/nuomi/data/dianying.js</url>
+          <line>157</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nuomi/data/dianying.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#1094#1628#0" />
+            <element signature="e#1652#2211#0" />
+            <element signature="e#2234#2514#0" />
+            <element signature="e#2536#2810#0" />
+            <element signature="e#2833#3336#0" />
+            <element signature="e#3360#3876#0" />
+            <element signature="e#3901#4558#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/data/dianying.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/data/dianying.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/data/dianying.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="129" column="264" selection-start-line="129" selection-start-column="264" selection-end-line="129" selection-end-column="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/jiudian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/mixiu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3687">
+          <caret line="461" column="18" lean-forward="true" selection-start-line="461" selection-start-column="18" selection-end-line="461" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/data/dianying.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1033">
+          <caret line="185" column="20" lean-forward="true" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
+          <folding>
+            <element signature="e#1094#1628#0" />
+            <element signature="e#1652#2211#0" />
+            <element signature="e#2234#2514#0" />
+            <element signature="e#2536#2810#0" />
+            <element signature="e#2833#3336#0" />
+            <element signature="e#3360#3876#0" />
+            <element signature="e#3901#4558#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuomi/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="561" column="8" lean-forward="true" selection-start-line="561" selection-start-column="8" selection-end-line="561" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#a#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

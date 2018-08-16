@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/movie.css" />
+		<link rel="stylesheet" type="text/css" href="css/yingpin.css"/>
+		<link rel="stylesheet" type="text/css" href="css/yingyuan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/piapfang.css"/>
+	</head>
+	<body>
+		<div class="top">
+			<div class="topauto">
+				<div class="topleft"></div>
+				<div class="topmiddle">南京
+					<div class="toparr"></div>
+					<div class="toparr-down">
+						<h2>热门城市</h2>
+						<ul>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+						</ul>
+						<a href="">更多城市></a>
+					</div>
+				</div>
+				<div class="topright">
+					<input type="text" placeholder="搜你感兴趣的电影" />
+					<span class="search"></span>
+				</div>
+			</div>
+		</div>
+		<!--黑色导航部分-->
+		<div class="black">
+			<div class="blackauto">
+				<ul class="blackleft">
+					<li><a href="movie.html">首页</a></li>
+					<li><a href="movie-yinpian.html">影片</a></li>
+					<li><a href="yingyuan.html">影院</a></li>
+					<li  class="blackcurrent" style="background: black;">票房</li>
+				</ul>
+				<div class="blackright">
+					<span>APP下载</span>
+					<span id="login">登录</span>
+					<div class="meng">
+						<div class="mengbai">
+							<div class="mengcha">X&nbsp;&nbsp;&nbsp;</div>
+							<div class="menglogo">扫码登录</div>
+							<div class="mengsao">
+								<div class="er"></div>
+								<div class="shou"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="zhuti">
+			<div class="zhutiauto">
+				<div class="zhuti1">
+					<div class="zhuti1-title">2018年06月08日<span  class="span"></span></div>
+					<div class="xia">
+						<div class="xiatitle"><a href=""><<</a><a href=""><</a>2018年6月<a href="">></a><a href="">>></a></div>
+						<div class="xiabody">
+							<table>
+								<thead>
+									<tr>
+										<th>日</th>
+										<th>一</th>
+										<th>二</th>
+										<th>三</th>
+										<th>四</th>
+										<th>五</th>
+										<th>六</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>27</td>
+										<td>28</td>
+										<td>29</td>
+										<td>30</td>
+										<td>31</td>
+										<td>1</td>
+										<td>2</td>
+									</tr><tr>
+										<td>3</td>
+										<td>4</td>
+										<td>5</td>
+										<td>6</td>
+										<td>7</td>
+										<td class="tcurrent">8</td>
+										<td>9</td>
+									</tr><tr>
+										<td>10</td>
+										<td>11</td>
+										<td>12</td>
+										<td>13</td>
+										<td>14</td>
+										<td>15</td>
+										<td>16</td>
+									</tr><tr>
+										<td>17</td>
+										<td>18</td>
+										<td>19</td>
+										<td>20</td>
+										<td>21</td>
+										<td>22</td>
+										<td>23</td>
+									</tr><tr>
+										<td>24</td>
+										<td>25</td>
+										<td>26</td>
+										<td>27</td>
+										<td>28</td>
+										<td>29</td>
+										<td>30</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<h3>今日大盘（周五）</h3>
+					<div class="kuang">
+						<div class="kuang-left">
+							<p>2439.48<span>万</span></p>
+							<p>截至北京时间13:15:48</p>
+							<p>票房预测:</p>
+						</div>
+						<ul class="kuang-right">
+							<li>
+								<p>79.01<span>万</span></p>
+								<p>人次</p>
+							</li>
+							<li>
+								<p>79.01<span>万</span></p>
+								<p>人次</p>
+							</li>
+							<li>
+								<p>79.01<span>万</span></p>
+								<p>人次</p>
+							</li>
+						</ul>
+					</div>
+					<h3>影片明细</h3>
+					<div class="dl">
+						<dl>
+							<dt>
+								<div class="dt1">影片</div>
+								<div>实时票房</div>
+								<div>票房占比</div>
+								<div>排片占比</div>
+								<div>上座率</div>
+								<div>排座占比</div>
+								<div>场次</div>
+								<div>人次</div>
+								<div>场均人次</div>
+								<div>场均收入</div>
+								<div>平均票价</div>
+							</dt>    
+							
+						</dl>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/movie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="data/dianying.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$.piaofang.riqi()
+				$.piaofang.piaoajax()
+				$("#login").click(function(){
+				$(".meng").css("display","block");
+			})
+			$(".mengcha").click(function(){
+				$(".meng").css("display","none");
+			})
+			})
+		</script>
+	</body>
+</html>

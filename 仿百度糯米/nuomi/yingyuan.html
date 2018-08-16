@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/movie.css" />
+		<link rel="stylesheet" type="text/css" href="css/yingpin.css"/>
+		<link rel="stylesheet" type="text/css" href="css/yingyuan.css"/>
+	</head>
+	<body>
+		<div class="top">
+			<div class="topauto">
+				<div class="topleft"></div>
+				<div class="topmiddle">南京
+					<div class="toparr"></div>
+					<div class="toparr-down">
+						<h2>热门城市</h2>
+						<ul>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+						</ul>
+						<a href="">更多城市></a>
+					</div>
+				</div>
+				<div class="topright">
+					<input type="text" placeholder="搜你感兴趣的电影" />
+					<span class="search"></span>
+				</div>
+			</div>
+		</div>
+		<!--黑色导航部分-->
+		<div class="black">
+			<div class="blackauto">
+				<ul class="blackleft">
+					<li><a href="movie.html">首页</a></li>
+					<li><a href="movie-yinpian.html">影片</a></li>
+					<li  class="blackcurrent" style="background: black;">影院</li>
+					<li><a href="piaofang.html">票房</a></li>
+				</ul>
+				<div class="blackright">
+					<span>APP下载</span>
+					<span id="login">登录</span>
+					<div class="meng">
+						<div class="mengbai">
+							<div class="mengcha">X&nbsp;&nbsp;&nbsp;</div>
+							<div class="menglogo">扫码登录</div>
+							<div class="mengsao">
+								<div class="er"></div>
+								<div class="shou"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--内容部分-->
+		<div class="content">
+			<div class="contentauto">
+				<div class="contentleft">
+					<div class="contentlefttop">
+						<div class="contentlefttop-first">
+							<div class="contentlefttop-first-left">区域<span>全部</span></div>
+							<ul class="contentlefttop-first-right">
+								<li>行政区</li>
+								<li>地铁附近</li>
+							</ul>
+						</div>
+						<div class="contentlefttop-two">
+							<div class="contentlefttop-two-left">影院<span>全部</span></div>
+							<ul class="contentlefttop-two-middle">
+								<li>幸福蓝海国际影城</li>
+								<li>中影国际影城</li>
+								<li>万达国际影城</li>
+								<li>金逸国际电影城</li>
+								<li>卢米埃影城</li>
+								<li>横店电影城</li>
+								<li>星美国际影城</li>
+								<li>耀莱成龙国际影城</li>
+								<li>UME国际影城</li>
+								<li>保利万和国际影城</li>
+							</ul>
+							<div class="contentlefttop-two-right"><a href="">更多>></a></div>
+						</div>
+					</div>
+					<ul class="maintext">
+						
+					</ul>
+					<div class="jiazai">点击查看更多影院  ></div>
+					
+				</div>
+				<div class="mainright">
+					<h2>当日票房排行榜</h2>
+					<ul  class="ri">
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/movie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="data/dianying.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+			$.yinpian.right();
+			$.yingyuan.yinyuanajax();
+			$.yingyuan.click();
+			
+			$(".er").mouseover(function(){
+				$(this).css({"transition":"1s","left":"-40px"})
+				$(".shou").css({"opacity":"1","transition":"1s","left":"203px"});
+			})
+			$(".er").mouseout(function(){
+				$(this).css({"transition":"1s","left":""})
+				$(".shou").css({"opacity":"0","transition":"1s","left":"243px"});
+			})
+			$("#login").click(function(){
+				$(".meng").css("display","block");
+			})
+			$(".mengcha").click(function(){
+				$(".meng").css("display","none");
+			})
+				
+				
+			})
+		</script>
+	</body>
+</html>

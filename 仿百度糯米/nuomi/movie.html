@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/movie.css" />
+		<link rel="stylesheet" type="text/css" href="css/yingpin.css"/>
+		<link rel="stylesheet" type="text/css" href="css/yingyuan.css"/>
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="topauto">
+				<div class="topleft"><a href="index.html"></a></div>
+				<div class="topmiddle">南京
+					<div class="toparr"></div>
+					<div class="toparr-down">
+						<h2>热门城市</h2>
+						<ul>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+							<li>北京</li>
+						</ul>
+						<a href="">更多城市></a>
+					</div>
+				</div>
+				<div class="topright">
+					<input type="text" placeholder="搜你感兴趣的电影" />
+					<span class="search"></span>
+				</div>
+			</div>
+		</div>
+		<!--黑色导航部分-->
+		<div class="black">
+			<div class="blackauto">
+				<ul class="blackleft">
+					<li style="background: black;"><a href="movie.html" >首页</a></li>
+					<li><a href="movie-yinpian.html">影片</a></li>
+					<li  class="blackcurrent" >影院</li>
+					<li><a href="piaofang.html">票房</a></li>
+				</ul>
+				<div class="blackright">
+					<span>APP下载</span>
+					<span id="login">登录</span>
+					<div class="meng">
+						<div class="mengbai">
+							<div class="mengcha">X&nbsp;&nbsp;&nbsp;</div>
+							<div class="menglogo">扫码登录</div>
+							<div class="mengsao">
+								<div class="er"></div>
+								<div class="shou"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--主体部分-->
+		<div class="bodycontent">
+			<div class="bodycontentauto">
+				<div class="bodyleft">
+					<!--电影热映-->
+					<div class="reyin">
+						<h2>正在热映<span></span></h2>
+						<div class="long"></div>
+						<ul class="reyinpic">
+							<!--ajax调用-->
+							<div class="circleleft"></div>
+							<div class="circleright"></div>
+						</ul>
+
+					</div>
+					<!--即将上映-->
+					<div class="shangyin">
+						<h2>即将上映<span></span></h2>
+						<ul class="shangyinpic">
+							<!--myajsx导入-->
+							<div class="circleleft1"></div>
+							<div class="circleright1"></div>
+						</ul>
+					</div>
+				</div>
+
+				<div class="bodyright">
+					<div class="remen">
+						<h2>热门影院<a href="">全部 >></a></h2>
+						<ul class="remencontent">
+							<!--myajax-->
+						</ul>
+					</div>
+					<div class="dang">
+						<h2>热门影院<a href="">全部 >></a></h2>
+						<ul class="dangcontent">
+							<!--myajax-->
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/movie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="data/dianying.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$.movie.myajax();
+			$.movie.renyin();
+			$.movie.shangyin();
+			$.movie.yema();
+			$.movie.yema1();
+			$.movie.click();
+			$.movie.click1();
+			$("#login").click(function(){
+				$(".meng").css("display","block");
+			})
+			$(".mengcha").click(function(){
+				$(".meng").css("display","none");
+			})
+			
+		</script>
+	</body>
+
+</html>
